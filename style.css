@@ -221,6 +221,7 @@ html {
   background-color: #ec5242;
   max-width: 70%;
   margin-top: 14%;
+  margin-bottom: 7%;
   color: #fff;
   font-size: 1.2em;
 }
@@ -228,6 +229,22 @@ html {
 .mainpopupBloc {
   display: flex;
   flex-direction: column;
+  max-width: 100%;
+}
+
+.popupBloc {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.closepopupBloc {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (min-width: 768px) {
