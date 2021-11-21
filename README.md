@@ -31,11 +31,14 @@ In this project, we will build an online education website offering online Engli
 
 - Twitter: [@AzonkeuO](https://twitter.com/AzonkeuO)
 
+## Acknowledgments
+
+Template design by [Cindy Shin](https://www.behance.net/adagio07).
 
 #### Show your support
 
 Give a ⭐️ if you like this project!
 
 
-## License
+## License 📝
 This project is [MIT](https://github.com/Azonkeu/Speak-Fluently/blob/main/LICENSE) licensed.
