@@ -15,12 +15,13 @@ In this project, we will build an online education website offering online Engli
     - Layout: composition and space between elements.
     
 
- ##### Checkout the live website [here](https://github.com/Azonkeu/Speak-Fluently);
+ ##### Checkout the live website [here](https://github.com/Azonkeu/Speak-Fluently).
+
 
 #### Built With
 
 - Major languages: Html5, Css3, Markdown
-- Technologies used: Github, Git, Vscode
+- Technologies used: Github, Git, Visual Studio code
 
 ## Author
 
@@ -30,8 +31,11 @@ In this project, we will build an online education website offering online Engli
 
 - Twitter: [@AzonkeuO](https://twitter.com/AzonkeuO)
 
+
 #### Show your support
+
 Give a ⭐️ if you like this project!
+
 
 ## License
 This project is [MIT](https://github.com/Azonkeu/Speak-Fluently/blob/main/LICENSE) licensed.
