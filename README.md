@@ -24,12 +24,14 @@ In this project, we will build an online education website offering online Engli
 
 ## Author
 
-Github: [@Azonkeu](https://github.com/Azonkeu)
-LinkedIn: [@AzonkeuO](https://www.linkedin.com/in/azonkeu-ornela-88a14b172/)
-Twitter: [@AzonkeuO](https://twitter.com/AzonkeuO)
+- Github: [@Azonkeu](https://github.com/Azonkeu)
+
+- LinkedIn: [@AzonkeuO](https://www.linkedin.com/in/azonkeu-ornela-88a14b172/)
+
+- Twitter: [@AzonkeuO](https://twitter.com/AzonkeuO)
 
 #### Show your support
 Give a ⭐️ if you like this project!
 
 ## License
-This project is MIT licensed.
+This project is [MIT](https://github.com/Azonkeu/Speak-Fluently/blob/main/LICENSE) licensed.
