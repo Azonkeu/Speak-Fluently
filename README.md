@@ -22,7 +22,7 @@ In this project, we will build an online education website offering online Engli
 - Major languages: Html5, Css3, Markdown
 - Technologies used: Github, Git, Vscode
 
-### Author
+## Author
 
 Github: [@Azonkeu](https://github.com/Azonkeu)
 LinkedIn: [@AzonkeuO](https://www.linkedin.com/in/azonkeu-ornela-88a14b172/)
@@ -31,5 +31,5 @@ Twitter: [@AzonkeuO](https://twitter.com/AzonkeuO)
 #### Show your support
 Give a ⭐️ if you like this project!
 
-### License
+## License
 This project is MIT licensed.
