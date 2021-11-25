@@ -26,7 +26,7 @@ const teachers = [
     experiencef: 'Certified English Teacher with 4 years of teaching experience',
     imgfr: 'pictures/will.png',
     descriptionf: 'I am a fully qualified ESL Teacher with a friendly and patient personality. Teaching English is a passion of mine and I am extremely excited to start classes with you.',
-   },
+  },
   {
     imgfi: 'pictures/lastmob.png',
     namefi: 'Maxim Jones',
@@ -40,7 +40,7 @@ const teachers = [
     experiencesi: 'CCertified English Teacher with 7 years of teaching experience',
     imgsix: 'pictures/lady.png',
     descriptionsi: 'I earned my Masters degree in TESOL in 2014 in California, USA and have been working with students around the world ever since.',
- },
+  },
 ];
 
 const mainTeacherBlock = document.createElement('div');
@@ -92,7 +92,7 @@ teacherBlock1.appendChild(teacherTextBlock1);
 
 const textTeacherTitle = document.createElement('p');
 textTeacherTitle.className = 'textTeachid1';
-textTeacherTitle.textContent =  teachers[0].nameo;
+textTeacherTitle.textContent = teachers[0].nameo;
 teacherTextBlock1.appendChild(textTeacherTitle);
 
 const textitle = document.createElement('p');
