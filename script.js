@@ -553,7 +553,7 @@ const footer = document.getElementById('footerid');
 document.body.appendChild(footer);
 
 const bodyCol = document.getElementById('bodyh');
-bodyCol.onload = function() {
-const colorNew = document.getElementById('deskabout');
-colorNew.classList.add('newcaolor');
-}
+bodyCol.onload = function necolor() {
+  const colorNew = document.getElementById('deskabout');
+  colorNew.classList.add('newcaolor');
+};

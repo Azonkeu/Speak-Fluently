@@ -46,7 +46,7 @@ openlinkContactone.addEventListener('click', () => {
 });
 
 const bodyCol = document.getElementById('abobody');
-bodyCol.onload = function() {
-const colorNew = document.getElementById('desktopab');
-colorNew.classList.add('newcaolor');
-}
+bodyCol.onload = function color() {
+  const colorNew = document.getElementById('desktopab');
+  colorNew.classList.add('newcaolor');
+};
