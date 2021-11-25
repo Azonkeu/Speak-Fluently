@@ -123,6 +123,18 @@ html {
   margin-left: 24px;
 }
 
+.ul-iconsmob a:active {
+  color: #f5988a;
+}
+
+.ul-iconsmob a:enabled {
+  color: #f5988a;
+}
+
+.ul-iconsmob a:hover {
+  color: #f5988a;
+}
+
 .ul-iconsmob .closebtn {
   position: absolute;
   top: 0;
@@ -716,6 +728,10 @@ html {
   }
 
   .listdesk:hover {
+    color: #f5988a;
+  }
+
+  .newcaolor {
     color: #f5988a;
   }
 

@@ -312,6 +312,9 @@
     margin-right: auto;
     color: #c14241;
     max-width: 100%;
+    background: -webkit-linear-gradient(#cf1313, #fc0202);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-top: 7%;
     font-size: 2.5em;
     margin-bottom: 0;

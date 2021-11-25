@@ -44,3 +44,9 @@ openlinkContactone.addEventListener('click', () => {
   document.getElementById('iconlistone').style.display = 'none';
   window.location.reload();
 });
+
+const bodyCol = document.getElementById('abobody');
+bodyCol.onload = function() {
+const colorNew = document.getElementById('desktopab');
+colorNew.classList.add('newcaolor');
+}

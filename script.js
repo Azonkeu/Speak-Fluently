@@ -551,3 +551,9 @@ document.body.appendChild(partners);
 
 const footer = document.getElementById('footerid');
 document.body.appendChild(footer);
+
+const bodyCol = document.getElementById('bodyh');
+bodyCol.onload = function() {
+const colorNew = document.getElementById('deskabout');
+colorNew.classList.add('newcaolor');
+}
