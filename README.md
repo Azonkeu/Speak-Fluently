@@ -15,7 +15,9 @@ In this project, we will build an online education website offering online Engli
     - Layout: composition and space between elements.
     
 
- ##### Checkout the live website [here](https://github.com/Azonkeu/Speak-Fluently).
+ ##### Checkout the live website [here](https://azonkeu.github.io/Speak-Fluently/).
+ 
+ Here is a [screnshot](pictures/screensho-edu.JPG) of the website.
 
 
 #### Built With
