@@ -2,20 +2,20 @@ ul {
   margin: 0;
   padding: 0;
 }
-  
+
 li {
   list-style: none;
   padding: 0;
 }
-  
+
 a {
   text-decoration: none;
 }
-  
+
 * {
   max-width: 100%;
 }
-  
+
 body {
   max-width: 100%;
   margin: 0;
@@ -24,11 +24,11 @@ body {
   overflow-x: hidden;
   -ms-overflow-style: none;
 }
-  
+
 body::-webkit-scrollbar {
   display: none;
 }
-  
+
 html {
   max-width: 100%;
   padding: 0;
@@ -65,7 +65,8 @@ html {
 .headerMobile {
   flex: 1;
   display: flex;
-  background-color: #f8f8f8;
+  background: rgba(255, 255, 255, 0.95);
+  border: none;
 }
 
 .hamburger-div {
@@ -92,6 +93,52 @@ html {
 .header {
   display: none;
 }
+
+.ul-iconsmob {
+  background-color: #3c3a39;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.ul-iconsmob a {
+  color: #fff5e1;
+  padding: 14px 16px;
+  font-family: lato, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3em;
+  line-height: 36px;
+  display: block;
+  text-align: center;
+  margin-top: 6px;
+  margin-right: 24px;
+  margin-bottom: 10px;
+  margin-left: 24px;
+}
+
+.ul-iconsmob .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  color: #67798e;
+  margin-left: 50px;
+  border: none;
+}
+
+.backmobi {
+  background-image: url(pictures/wowly.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .section1 {
   flex: 1;
   display: flex;
@@ -99,7 +146,8 @@ html {
   max-width: 100%;
   padding-left: 4%;
   padding-right: 4%;
-  background-color: #f8f8f8;
+  border: none;
+  background: rgba(255, 255, 255, 0.95);
 }
 
 .hello {
@@ -107,7 +155,7 @@ html {
   color: #f29279;
   margin-top: 10%;
   margin-bottom: 0;
-  font-size: 1.3em;
+  font-size: 1.2em;
   max-width: 85%;
   font-family: lato, sans-serif;
 }
@@ -117,7 +165,10 @@ html {
   color: #c14241;
   max-width: 100%;
   margin-top: 2%;
-  font-size: 2.1em;
+  font-size: 1.5em;
+  background: -webkit-linear-gradient(#cf1313, #fc0202);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 0;
   font-family: COCOGOOSE, sans-serif;
 }
@@ -141,7 +192,7 @@ html {
 .date {
   flex: 1;
   color: #4e4e4e;
-  font-size: 1.9em;
+  font-size: 1.4em;
   font-weight: bold;
   margin-top: 2%;
   margin-bottom: 0;
@@ -162,10 +213,11 @@ html {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background-color: #282b32;
   padding-left: 4%;
   padding-right: 4%;
   padding-top: 5%;
+  background-image: url(pictures/sectio2b.jpg);
+  background-repeat: no-repeat;
 }
 
 .section2-title {
@@ -183,8 +235,8 @@ html {
   max-height: 10px;
   width: 10%;
   color: #6e3638;
-  background-color:#6e3638;
-  border: 1px solid#6e3638;
+  background-color: #6e3638;
+  border: 1px solid #6e3638;
   margin-left: auto;
   margin-right: auto;
 }
@@ -193,8 +245,12 @@ html {
   flex: 1;
   display: flex;
   flex-direction: row;
-  background-color: #3c3f46;
+  background: rgba(229, 229, 229, 0.07);
   margin-top: 4%;
+}
+
+.section2-div1 {
+  margin-top: 8%;
 }
 
 .ulstep {
@@ -203,60 +259,53 @@ html {
   flex-direction: row;
   padding-top: 6%;
   padding-bottom: 6%;
-  padding-right: 2%;
+  padding-right: 1%;
 }
 
 .stepitem1 {
   flex: 1;
   display: flex;
   flex-direction: row;
-  min-width: 30%;
+  max-width: 39%;
   align-items: center;
-  margin-right: 2%;
+  margin-right: 3%;
+  padding-left: 4%;
 }
 
 .fa-user-plus {
-  flex: 1;
   color: #fff;
-  margin-left: 7%;
 }
 
 .fa-calendar-alt {
-  flex: 1;
   color: #fff;
-  margin-left: 7%;
 }
 
 .fa-check-circle {
-  flex: 1;
   color: #fff;
-  margin-left: 7%;
 }
 
 .fa-chalkboard-teacher {
-  flex: 1;
   color: #fff;
-  margin-left: 7%;
 }
 
 .fa-comments {
-  flex: 1;
   color: #fff;
-  margin-left: 7%;
 }
 
 .span1 {
- flex: 1;
- color: #ec5242;
- font-size: 1.1em;
- padding-top: 2%;
+  flex: 1;
+  color: #ec5242;
+  font-size: 1.1em;
+  padding-top: 2%;
+  margin-left: 14%;
 }
 
 .stepitem2 {
   flex: 1;
   color: #fff;
-  font-family: lato, sans-serif;
-  font-size: 1.2em;
+  font-family: latoreg, sans-serif;
+  font-size: 1em;
+  max-width: 65%;
 }
 
 .maindesktop {
@@ -271,10 +320,11 @@ html {
   background-color: #ff4f38;
   max-width: 70%;
   margin-top: 14%;
-  margin-bottom: 7%;
+  margin-bottom: 12%;
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: COCOGOOSE, sans-serif;
+  text-align: center;
 }
 
 .mainpopupBloc {
@@ -306,6 +356,7 @@ html {
   margin-right: auto;
   font-family: lato, sans-serif;
   font-weight: bold;
+  margin-top: 8%;
 }
 
 .lineclass {
@@ -314,8 +365,8 @@ html {
   max-height: 10px;
   width: 18%;
   color: #fda99d;
-  background-color:#fda99d;
-  border: 2px solid#fda99d;
+  background-color: #fda99d;
+  border: 2px solid #fda99d;
   margin-left: auto;
   margin-right: auto;
 }
@@ -325,7 +376,7 @@ html {
   display: block;
   height: 10px;
   width: 10%;
-  color:#e5e5e5;
+  color: #e5e5e5;
   background-color: #e5e5e5;
   border: 2px solid #e5e5e5;
 }
@@ -360,8 +411,8 @@ html {
 
 .imageteachid3 {
   flex: 1;
-  max-width: 10em;
-  max-height: 8em;
+  max-width: 124px;
+  height: 124px;
   margin-top: 5%;
 }
 
@@ -420,17 +471,113 @@ html {
   display: none;
 }
 
+.abhello {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.abtitle {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.abtitle-text {
+  background-color: #fff;
+  border-color: #f0f0f0;
+}
+
+.message {
+  flex: 1;
+  font-family: latoreg, sans-serif;
+  font-size: 0.8em;
+  color: #7d7d7d;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.aboutlink {
+  flex: 1;
+  text-decoration: underline;
+  color: #535353;
+  font-size: 0.8em;
+  margin-bottom: 10%;
+  text-align: center;
+  margin-top: 0;
+  font-weight: 600;
+  font-family: latoreg, sans-serif;
+}
+
+.absection2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.speak-text {
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: lato, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #363636;
+}
+
+.ab-text1 {
+  flex: 1;
+  padding-left: 6%;
+  padding-right: 6%;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: latoreg, sans-serif;
+  text-align: center;
+  color: #999;
+  font-weight: 600;
+}
+
+.ablogdiv {
+  flex: 1;
+  max-width: 100%;
+  display: flex;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  border: 3px solid #999;
+  margin-top: 4%;
+  margin-bottom: 10%;
+}
+
+.aboutex {
+  font-family: lato, sans-serif;
+  font-weight: bold;
+  margin-top: 3%;
+  font-size: 1.6em;
+  line-height: 23px;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.imglo {
+  margin-right: 0;
+  margin-left: auto;
+}
+
 @media screen and (min-width: 768px) {
   @font-face {
     font-family: "COCOGOOSE";
     src: url(fonts/COCOGOOSE/Cocogoose_trial.otf);
   }
-  
+
   @font-face {
     font-family: "lato";
     src: url(fonts/Lato-Bold.ttf);
   }
-  
+
   @font-face {
     font-family: "latothin";
     src: url(fonts/Lato-BoldItalic.ttf);
@@ -441,7 +588,6 @@ html {
     src: url(fonts/Lato-Thin.ttf);
   }
 
-  
   @font-face {
     font-family: "latoreg";
     src: url(fonts/Lato-Regular.ttf);
@@ -555,7 +701,6 @@ html {
     min-width: 15%;
   }
 
-
   .listdesk {
     font-family: lato, sans-serif;
     font-size: 1em;
@@ -592,14 +737,21 @@ html {
     min-width: 14%;
   }
 
+  .backdiv {
+    background-image: url(pictures/backdeskz.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
   .section1Desk {
     flex: 1;
     display: flex;
     flex-direction: column;
     max-width: 100%;
     padding-left: 12%;
+    padding-right: 12%;
     padding-top: 7%;
-    background-color: #f8f8f8;
+    background: rgba(255, 255, 255, 0.95);
   }
 
   .helloDesk {
@@ -615,7 +767,10 @@ html {
     color: #c14241;
     max-width: 100%;
     margin-top: 1%;
-    font-size: 3.3em;
+    font-size: 2.5em;
+    background: -webkit-linear-gradient(#cf1313, #fc0202);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 0;
     font-family: COCOGOOSE, sans-serif;
   }
@@ -683,8 +838,8 @@ html {
     max-height: 10px;
     width: 3%;
     color: #6e3638;
-    background-color:#6e3638;
-    border: 1px solid#6e3638;
+    background-color: #6e3638;
+    border: 1px solid #6e3638;
     margin-left: auto;
     margin-right: auto;
   }
@@ -757,6 +912,7 @@ html {
     font-weight: 600;
     margin-bottom: 11%;
   }
+
   .mainpopupBloc {
     display: none;
   }
@@ -785,6 +941,7 @@ html {
     font-family: lato, sans-serif;
     font-size: 1.6em;
     font-weight: 400;
+    margin-top: 5%;
   }
 
   .lineclassDesk {
@@ -817,7 +974,7 @@ html {
     flex: 1;
     display: flex;
     flex-direction: row;
-    margin-right: 3%;
+    margin-right: 6%;
   }
 
   .teacherclass2Desk {
@@ -828,8 +985,8 @@ html {
 
   .imageteachid3Desk {
     flex: 1;
-    max-width: 30%;
-    height: 70%;
+    max-width: 124px;
+    height: 124px;
     margin-top: 1%;
   }
 
@@ -926,7 +1083,7 @@ html {
 
   .fa-airbnb {
     flex: 1;
-    color:#5F5F62;
+    color: #5f5f62;
   }
 
   .naver {
@@ -953,10 +1110,6 @@ html {
   .airbnb {
     display: flex;
     margin-top: 0.3em;
-  }
-
-  .airicon {
-    
   }
 
   .air {
@@ -1030,7 +1183,7 @@ html {
   }
 
   .texfoo {
-    color:#232021;
+    color: #232021;
     font-family: lato, sans-serif;
     font-weight: bold;
     font-size: 1.4em;
@@ -1040,10 +1193,13 @@ html {
   }
 
   .headerlog {
-    color:#232021;
+    color: #2e2e2e;
     font-family: lato, sans-serif;
+    font-size: 1.2em;
+    margin-left: 3px;
+    line-height: 19px;
+    margin-top: 2%;
     font-weight: bold;
-    font-size: 1.4em;
   }
 
   .copy {
@@ -1051,15 +1207,6 @@ html {
     color: #767577;
     font-family: lato, sans-serif;
     font-size: 1em;
-  }
-
-  .headerlog {
-    color: #2e2e2e;
-    font-family: lato, sans-serif;
-    font-size: 1.2em;
-    margin-left: 3px;
-    line-height: 19px;
-    margin-top: 2%;
   }
 
   .global {

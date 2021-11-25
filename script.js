@@ -37,7 +37,7 @@ popupimgtextBlock.appendChild(teacherBlock1);
 const imageteacher1 = document.createElement('img');
 imageteacher1.id = 'imageteacherid1';
 imageteacher1.className = 'imageteachid3';
-imageteacher1.src = 'pictures/woman.png';
+imageteacher1.src = 'pictures/miamob.png';
 teacherBlock1.appendChild(imageteacher1);
 
 const teacherTextBlock1 = document.createElement('div');
@@ -47,12 +47,12 @@ teacherBlock1.appendChild(teacherTextBlock1);
 
 const textTeacherTitle = document.createElement('p');
 textTeacherTitle.className = 'textTeachid1';
-textTeacherTitle.textContent = "Mia Brown";
+textTeacherTitle.textContent = 'Mia Brown';
 teacherTextBlock1.appendChild(textTeacherTitle);
 
 const textitle = document.createElement('p');
 textitle.className = 'textTeachidx';
-textitle.textContent = "Certified English Teacher with 5 years of teaching experience";
+textitle.textContent = 'Certified English Teacher with 5 years of teaching experience';
 teacherTextBlock1.appendChild(textitle);
 
 const linespan = document.createElement('span');
@@ -62,7 +62,7 @@ teacherTextBlock1.appendChild(linespan);
 
 const textTeacherTitle1 = document.createElement('p');
 textTeacherTitle1.className = 'textTeachid2';
-textTeacherTitle1.textContent = "I speak 7 languages to various degrees of fluency. I believe I can use my own language learning experience to help you achieve your language goals.";
+textTeacherTitle1.textContent = 'I speak 7 languages to various degrees of fluency. I believe I can use my own language learning experience to help you achieve your language goals.';
 teacherTextBlock1.appendChild(textTeacherTitle1);
 
 const teacherBlock2 = document.createElement('div');
@@ -72,7 +72,7 @@ popupimgtextBlock.appendChild(teacherBlock2);
 
 const imageteacher2 = document.createElement('img');
 imageteacher2.className = 'imageteachid3';
-imageteacher2.src = 'pictures/man.png';
+imageteacher2.src = 'pictures/robertmo.png';
 teacherBlock2.appendChild(imageteacher2);
 
 const blocteacher = document.createElement('div');
@@ -82,12 +82,12 @@ teacherBlock2.appendChild(blocteacher);
 
 const blockSecTitle = document.createElement('p');
 blockSecTitle.className = 'textTeachid1';
-blockSecTitle.textContent = "Robert Miller";
+blockSecTitle.textContent = 'Robert Miller';
 blocteacher.appendChild(blockSecTitle);
 
 const textitle1 = document.createElement('p');
 textitle1.className = 'textTeachidx';
-textitle1.textContent = "Certified English Teacher with 10 years of teaching experience";
+textitle1.textContent = 'Certified English Teacher with 10 years of teaching experience';
 blocteacher.appendChild(textitle1);
 
 const linespan1 = document.createElement('span');
@@ -107,7 +107,7 @@ popupimgtextBlock.appendChild(teacherBlock3);
 
 const imageteacher3 = document.createElement('img');
 imageteacher3.className = 'imageteachid3';
-imageteacher3.src = 'pictures/woman.png';
+imageteacher3.src = 'pictures/Sans-tit.png';
 teacherBlock3.appendChild(imageteacher3);
 
 const textBlock2 = document.createElement('div');
@@ -117,12 +117,12 @@ teacherBlock3.appendChild(textBlock2);
 
 const textTitle3 = document.createElement('p');
 textTitle3.className = 'textTeachid1';
-textTitle3.textContent = "Clara Garcia";
+textTitle3.textContent = 'Clara Garcia';
 textBlock2.appendChild(textTitle3);
 
 const textitle2 = document.createElement('p');
 textitle2.className = 'textTeachidx';
-textitle2.textContent = "Certified English Teacher with 8 years of teaching experience";
+textitle2.textContent = 'Certified English Teacher with 8 years of teaching experience';
 textBlock2.appendChild(textitle2);
 
 const linespan2 = document.createElement('span');
@@ -132,7 +132,7 @@ textBlock2.appendChild(linespan2);
 
 const textTitle4 = document.createElement('p');
 textTitle4.className = 'textTeachid2';
-textTitle4.textContent = "I am ready to start working with you as soon as you are ready. I have a very flexible schedule and over 20 years experience, teaching English and training English teachers.";
+textTitle4.textContent = 'I am ready to start working with you as soon as you are ready. I have a very flexible schedule and over 20 years experience, teaching English and training English teachers.';
 textBlock2.appendChild(textTitle4);
 
 const popupimgtext = document.createElement('div');
@@ -147,7 +147,7 @@ popupimgtext.appendChild(teacherBlock4);
 
 const imageteacher4 = document.createElement('img');
 imageteacher4.className = 'imageteachid3';
-imageteacher4.src = 'pictures/man.png';
+imageteacher4.src = 'pictures/willmob.png';
 teacherBlock4.appendChild(imageteacher4);
 
 const textBlocks3 = document.createElement('div');
@@ -157,12 +157,12 @@ teacherBlock4.appendChild(textBlocks3);
 
 const textTeacher4 = document.createElement('p');
 textTeacher4.className = 'textTeachid1';
-textTeacher4.textContent = "Pavel Davis";
+textTeacher4.textContent = 'Pavel Davis';
 textBlocks3.appendChild(textTeacher4);
 
 const textitle4 = document.createElement('p');
 textitle4.className = 'textTeachidx';
-textitle4.textContent = "Certified English Teacher with 4 years of teaching experience";
+textitle4.textContent = 'Certified English Teacher with 4 years of teaching experience';
 textBlocks3.appendChild(textitle4);
 
 const linespan3 = document.createElement('span');
@@ -172,7 +172,7 @@ textBlocks3.appendChild(linespan3);
 
 const textfirstTeacher = document.createElement('p');
 textfirstTeacher.className = 'textTeachid2';
-textfirstTeacher.textContent = "I am a fully qualified ESL Teacher with a friendly and patient personality. Teaching English is a passion of mine and I am extremely excited to start classes with you.";
+textfirstTeacher.textContent = 'I am a fully qualified ESL Teacher with a friendly and patient personality. Teaching English is a passion of mine and I am extremely excited to start classes with you.';
 textBlocks3.appendChild(textfirstTeacher);
 
 const teacherBlock5 = document.createElement('div');
@@ -182,7 +182,7 @@ popupimgtext.appendChild(teacherBlock5);
 
 const imageteacher5 = document.createElement('img');
 imageteacher5.className = 'imageteachid3';
-imageteacher5.src = 'pictures/woman.png';
+imageteacher5.src = 'pictures/lastmob.png';
 teacherBlock5.appendChild(imageteacher5);
 
 const textBlocks4 = document.createElement('div');
@@ -192,12 +192,12 @@ teacherBlock5.appendChild(textBlocks4);
 
 const textTeacher5 = document.createElement('p');
 textTeacher5.className = 'textTeachid1';
-textTeacher5.textContent = "Alicia Jones";
+textTeacher5.textContent = 'Maxim Jones';
 textBlocks4.appendChild(textTeacher5);
 
 const textitle5 = document.createElement('p');
 textitle5.className = 'textTeachidx';
-textitle5.textContent = "Certified English Teacher with 5 years of teaching experience";
+textitle5.textContent = 'Certified English Teacher with 5 years of teaching experience';
 textBlocks4.appendChild(textitle5);
 
 const linespan4 = document.createElement('span');
@@ -207,7 +207,7 @@ textBlocks4.appendChild(linespan4);
 
 const textTeachertitle5 = document.createElement('p');
 textTeachertitle5.className = 'textTeachid2';
-textTeachertitle5.textContent = "Hi there! I am a certified and experienced ESL teacher and an adventurous American who has traveled the globe and shared her skills abroad.";
+textTeachertitle5.textContent = 'Hi there! I am a certified and experienced ESL teacher and an adventurous American who has traveled the globe and shared her skills abroad.';
 textBlocks4.appendChild(textTeachertitle5);
 
 const teacherBlock6 = document.createElement('div');
@@ -217,7 +217,7 @@ popupimgtext.appendChild(teacherBlock6);
 
 const imageteacher6 = document.createElement('img');
 imageteacher6.className = 'imageteachid3';
-imageteacher6.src = 'pictures/man.png';
+imageteacher6.src = 'pictures/ladymob.png';
 teacherBlock6.appendChild(imageteacher6);
 
 const teacherBlockDiv = document.createElement('div');
@@ -227,12 +227,12 @@ teacherBlock6.appendChild(teacherBlockDiv);
 
 const textTeacher6 = document.createElement('p');
 textTeacher6.className = 'textTeachid1';
-textTeacher6.textContent = "William Johnson";
+textTeacher6.textContent = 'William Johnson';
 teacherBlockDiv.appendChild(textTeacher6);
 
 const textitlex6 = document.createElement('p');
 textitlex6.className = 'textTeachidx';
-textitlex6.textContent = "Certified English Teacher with 7 years of teaching experience";
+textitlex6.textContent = 'Certified English Teacher with 7 years of teaching experience';
 teacherBlockDiv.appendChild(textitlex6);
 
 const linespan5 = document.createElement('span');
@@ -242,10 +242,57 @@ teacherBlockDiv.appendChild(linespan5);
 
 const textTeacher7 = document.createElement('p');
 textTeacher7.className = 'textTeachid2';
-textTeacher7.textContent = "I earned my Masters degree in TESOL in 2014 in California, USA and have been working with students around the world ever since.";
+textTeacher7.textContent = 'I earned my Masters degree in TESOL in 2014 in California, USA and have been working with students around the world ever since.';
 teacherBlockDiv.appendChild(textTeacher7);
 
-//desktop
+const hamburger = document.getElementById('ham');
+hamburger.addEventListener('click', () => {
+  document.getElementById('iconlist').style.width = '100%';
+});
+
+const closeNav = document.getElementById('closeNav');
+closeNav.addEventListener('click', () => {
+  document.getElementById('iconlist').style.display = 'none';
+  window.location.reload();
+});
+
+const openNavlink = document.getElementById('home');
+openNavlink.addEventListener('click', () => {
+  document.getElementById('iconlist').style.display = 'none';
+  window.location.reload();
+});
+
+const openlinkAbout = document.getElementById('about');
+openlinkAbout.addEventListener('click', () => {
+  document.getElementById('iconlist').style.display = 'none';
+  window.location.reload();
+});
+
+const openlinkhow = document.getElementById('howit');
+openlinkhow.addEventListener('click', () => {
+  document.getElementById('iconlist').style.display = 'none';
+  window.location.reload();
+});
+
+const openlinkTeach = document.getElementById('teacher');
+openlinkTeach.addEventListener('click', () => {
+  document.getElementById('iconlist').style.display = 'none';
+  window.location.reload();
+});
+
+const openlinkpart = document.getElementById('partner');
+openlinkpart.addEventListener('click', () => {
+  document.getElementById('iconlist').style.display = 'none';
+  window.location.reload();
+});
+
+const openlinkContact = document.getElementById('contact');
+openlinkContact.addEventListener('click', () => {
+  document.getElementById('iconlist').style.display = 'none';
+  window.location.reload();
+});
+
+// desktop
 
 const mainTeacherBlockDesk = document.createElement('div');
 mainTeacherBlockDesk.id = 'mainpopupDivDesk';
@@ -286,7 +333,7 @@ popupimgtextBlockDesk.appendChild(teacherBlock1Desk);
 const imageteacher1Desk = document.createElement('img');
 imageteacher1Desk.id = 'imageteacherid1Desk';
 imageteacher1Desk.className = 'imageteachid3Desk';
-imageteacher1Desk.src = 'pictures/woman.png';
+imageteacher1Desk.src = 'pictures/mia.png';
 teacherBlock1Desk.appendChild(imageteacher1Desk);
 
 const teacherTextBlock1Desk = document.createElement('div');
@@ -296,12 +343,12 @@ teacherBlock1Desk.appendChild(teacherTextBlock1Desk);
 
 const textTeacherTitleDesk = document.createElement('p');
 textTeacherTitleDesk.className = 'textTeachid1Desk';
-textTeacherTitleDesk.textContent = "Mia Brown";
+textTeacherTitleDesk.textContent = 'Mia Brown';
 teacherTextBlock1Desk.appendChild(textTeacherTitleDesk);
 
 const textitleDesk = document.createElement('p');
 textitleDesk.className = 'textTeachidxDesk';
-textitleDesk.textContent = "Certified English Teacher with 5 years of teaching experience";
+textitleDesk.textContent = 'Certified English Teacher with 5 years of teaching experience';
 teacherTextBlock1Desk.appendChild(textitleDesk);
 
 const linespanDesk = document.createElement('span');
@@ -311,7 +358,7 @@ teacherTextBlock1Desk.appendChild(linespanDesk);
 
 const textTeacherTitle1Desk = document.createElement('p');
 textTeacherTitle1Desk.className = 'textTeachid2Desk';
-textTeacherTitle1Desk.textContent = " I speak 7 languages to various degrees of fluency. I believe I can use my own language learning experience to help you achieve your language goals.";
+textTeacherTitle1Desk.textContent = ' I speak 7 languages to various degrees of fluency. I believe I can use my own language learning experience to help you achieve your language goals.';
 teacherTextBlock1Desk.appendChild(textTeacherTitle1Desk);
 
 const teacherBlock2Desk = document.createElement('div');
@@ -321,7 +368,7 @@ popupimgtextBlockDesk.appendChild(teacherBlock2Desk);
 
 const imageteacher2Desk = document.createElement('img');
 imageteacher2Desk.className = 'imageteachid3Desk';
-imageteacher2Desk.src = 'pictures/man.png';
+imageteacher2Desk.src = 'pictures/robert.png';
 teacherBlock2Desk.appendChild(imageteacher2Desk);
 
 const blocteacherDesk = document.createElement('div');
@@ -331,12 +378,12 @@ teacherBlock2Desk.appendChild(blocteacherDesk);
 
 const blockSecTitleDesk = document.createElement('p');
 blockSecTitleDesk.className = 'textTeachid1Desk';
-blockSecTitleDesk.textContent = "Robert Miller";
+blockSecTitleDesk.textContent = 'Robert Miller';
 blocteacherDesk.appendChild(blockSecTitleDesk);
 
 const textitle1Desk = document.createElement('p');
 textitle1Desk.className = 'textTeachidxDesk certified';
-textitle1Desk.textContent = "Certified English Teacher with 10 years of teaching experience";
+textitle1Desk.textContent = 'Certified English Teacher with 10 years of teaching experience';
 blocteacherDesk.appendChild(textitle1Desk);
 
 const linespan1Desk = document.createElement('span');
@@ -361,7 +408,7 @@ divtextDesk.appendChild(teacherBlock3Desk);
 
 const imageteacher3Desk = document.createElement('img');
 imageteacher3Desk.className = 'imageteachid3Desk';
-imageteacher3Desk.src = 'pictures/woman.png';
+imageteacher3Desk.src = 'pictures/Sans-titre.png';
 teacherBlock3Desk.appendChild(imageteacher3Desk);
 
 const textBlock2Desk = document.createElement('div');
@@ -371,12 +418,12 @@ teacherBlock3Desk.appendChild(textBlock2Desk);
 
 const textTitle3Desk = document.createElement('p');
 textTitle3Desk.className = 'textTeachid1Desk';
-textTitle3Desk.textContent = "Clara Garcia";
+textTitle3Desk.textContent = 'Clara Garcia';
 textBlock2Desk.appendChild(textTitle3Desk);
 
 const textitle2Desk = document.createElement('p');
 textitle2Desk.className = 'textTeachidxDesk';
-textitle2Desk.textContent = "Certified English Teacher with 8 years of teaching experience";
+textitle2Desk.textContent = 'Certified English Teacher with 8 years of teaching experience';
 textBlock2Desk.appendChild(textitle2Desk);
 
 const linespan2Desk = document.createElement('span');
@@ -386,10 +433,8 @@ textBlock2Desk.appendChild(linespan2Desk);
 
 const textTitle4Desk = document.createElement('p');
 textTitle4Desk.className = 'textTeachid2Desk';
-textTitle4Desk.textContent = "I am ready to start working with you as soon as you are ready. I have a very flexible schedule and over 20 years experience, teaching English and training English teachers.";
+textTitle4Desk.textContent = 'I am ready to start working with you as soon as you are ready. I have a very flexible schedule and over 20 years experience, teaching English and training English teachers.';
 textBlock2Desk.appendChild(textTitle4Desk);
-
-
 
 const desktopBlokThird = document.createElement('div');
 desktopBlokThird.id = 'desktopBlokThi';
@@ -398,7 +443,7 @@ divtextDesk.appendChild(desktopBlokThird);
 
 const image = document.createElement('img');
 image.className = 'imageteachid3Desk';
-image.src = 'pictures/woman.png';
+image.src = 'pictures/last.png';
 desktopBlokThird.appendChild(image);
 
 const textblockDivs = document.createElement('div');
@@ -408,12 +453,12 @@ desktopBlokThird.appendChild(textblockDivs);
 
 const teacherBlockThir = document.createElement('p');
 teacherBlockThir.className = 'textTeachid1Desk';
-teacherBlockThir.textContent = "Pavel Davis";
+teacherBlockThir.textContent = 'Pavel Davis';
 textblockDivs.appendChild(teacherBlockThir);
 
 const textitleThird2Desk = document.createElement('p');
 textitleThird2Desk.className = 'textTeachidxDesk';
-textitleThird2Desk.textContent = "Certified English Teacher with 4 years of teaching experience";
+textitleThird2Desk.textContent = 'Certified English Teacher with 4 years of teaching experience';
 textblockDivs.appendChild(textitleThird2Desk);
 
 const linespanix2Desk = document.createElement('span');
@@ -423,14 +468,13 @@ textblockDivs.appendChild(linespanix2Desk);
 
 const featureTeacher = document.createElement('p');
 featureTeacher.className = 'textTeachid2Desk';
-featureTeacher.textContent = "I am a fully qualified ESL Teacher with a friendly and patient personality. Teaching English is a passion of mine and I am extremely excited to start classes with you.";
+featureTeacher.textContent = 'I am a fully qualified ESL Teacher with a friendly and patient personality. Teaching English is a passion of mine and I am extremely excited to start classes with you.';
 textblockDivs.appendChild(featureTeacher);
 
 const teachblock5Desk = document.createElement('div');
 teachblock5Desk.id = 'teacherid5Desk';
 teachblock5Desk.className = 'class1Desk';
 closepopupBlockDesk.appendChild(teachblock5Desk);
-
 
 const teacherBlock5Desk = document.createElement('div');
 teacherBlock5Desk.id = 'teacherid5Desk';
@@ -439,7 +483,7 @@ teachblock5Desk.appendChild(teacherBlock5Desk);
 
 const imageteacher5Desk = document.createElement('img');
 imageteacher5Desk.className = 'imageteachid3Desk';
-imageteacher5Desk.src = 'pictures/woman.png';
+imageteacher5Desk.src = 'pictures/last.png';
 teacherBlock5Desk.appendChild(imageteacher5Desk);
 
 const textBlocksDesktop = document.createElement('div');
@@ -449,12 +493,12 @@ teacherBlock5Desk.appendChild(textBlocksDesktop);
 
 const textTeacher5Desk = document.createElement('p');
 textTeacher5Desk.className = 'textTeachid1Desk';
-textTeacher5Desk.textContent = "Alicia Jones";
+textTeacher5Desk.textContent = 'Maxim Jones';
 textBlocksDesktop.appendChild(textTeacher5Desk);
 
 const textitle5Desk = document.createElement('p');
 textitle5Desk.className = 'textTeachidxDesk';
-textitle5Desk.textContent = "Certified English Teacher with 5 years of teaching experience";
+textitle5Desk.textContent = 'Certified English Teacher with 5 years of teaching experience';
 textBlocksDesktop.appendChild(textitle5Desk);
 
 const linespan4Desk = document.createElement('span');
@@ -464,7 +508,7 @@ textBlocksDesktop.appendChild(linespan4Desk);
 
 const textTeachertitle5Desk = document.createElement('p');
 textTeachertitle5Desk.className = 'textTeachid2Desk';
-textTeachertitle5Desk.textContent = "Hi there! I am a certified and experienced ESL teacher and an adventurous American who has traveled the globe and shared her skills abroad.";
+textTeachertitle5Desk.textContent = 'Hi there! I am a certified and experienced ESL teacher and an adventurous American who has traveled the globe and shared her skills abroad.';
 textBlocksDesktop.appendChild(textTeachertitle5Desk);
 
 const teacherBlock6Desk = document.createElement('div');
@@ -474,7 +518,7 @@ teachblock5Desk.appendChild(teacherBlock6Desk);
 
 const imageteacher6Desk = document.createElement('img');
 imageteacher6Desk.className = 'imageteachid3Desk';
-imageteacher6Desk.src = 'pictures/man.png';
+imageteacher6Desk.src = 'pictures/lady.png';
 teacherBlock6Desk.appendChild(imageteacher6Desk);
 
 const teacherBlockDivDesk = document.createElement('div');
@@ -484,12 +528,12 @@ teacherBlock6Desk.appendChild(teacherBlockDivDesk);
 
 const textTeacher6Desk = document.createElement('p');
 textTeacher6Desk.className = 'textTeachid1Desk';
-textTeacher6Desk.textContent = "William Johnson";
+textTeacher6Desk.textContent = 'William Johnson';
 teacherBlockDivDesk.appendChild(textTeacher6Desk);
 
 const textitlex6Desk = document.createElement('p');
 textitlex6Desk.className = 'textTeachidxDesk';
-textitlex6Desk.textContent = "Certified English Teacher with 7 years of teaching experience";
+textitlex6Desk.textContent = 'Certified English Teacher with 7 years of teaching experience';
 teacherBlockDivDesk.appendChild(textitlex6Desk);
 
 const linespan5Desk = document.createElement('span');
@@ -499,7 +543,7 @@ teacherBlockDivDesk.appendChild(linespan5Desk);
 
 const textTeacher7Desk = document.createElement('p');
 textTeacher7Desk.className = 'textTeachid2Desk';
-textTeacher7Desk.textContent = "I earned my Masters degree in TESOL in 2014 in California, USA and have been working with students around the world ever since.";
+textTeacher7Desk.textContent = 'I earned my Masters degree in TESOL in 2014 in California, USA and have been working with students around the world ever since.';
 teacherBlockDivDesk.appendChild(textTeacher7Desk);
 
 const partners = document.getElementById('part');
