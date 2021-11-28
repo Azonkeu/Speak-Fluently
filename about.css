@@ -1,0 +1,538 @@
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url(fonts/COCOGOOSE/Cocogoose_trial.otf);
+}
+
+.mainpopupBlocDesk {
+  display: none;
+}
+
+.mainpopupBloc {
+  display: none;
+}
+
+.header {
+  display: none;
+}
+
+.absection2Desk {
+  display: none;
+}
+
+.videoDesk {
+  display: none;
+}
+
+.ul-iconsmob {
+  background-color: #3c3a39;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.ul-iconsmob a {
+  color: #fff5e1;
+  padding: 14px 16px;
+  font-family: lato, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3em;
+  line-height: 36px;
+  display: block;
+  text-align: center;
+  margin-top: 6px;
+  margin-right: 24px;
+  margin-bottom: 10px;
+  margin-left: 24px;
+}
+
+.ul-iconsmob .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  color: #67798e;
+  margin-left: 50px;
+  border: none;
+}
+
+.abhow {
+  color: #fca095;
+  border-color: #fca095;
+  background-color: #fca095;
+}
+
+.video {
+  display: flex;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 3%;
+  border-top: 5px solid #999;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+
+.vid-text {
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: lato, sans-serif;
+  color: #393939;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.vid-textsec {
+  flex: 1;
+  text-align: center;
+  font-family: latoreg, sans-serif;
+  color: #7f7f7f;
+  font-weight: 800;
+}
+
+.videoclas1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-image: url(pictures/vid.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  margin-top: 3%;
+}
+
+.videoclas2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+  background-image: url(pictures/dark.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.teachdat {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+  font-family: lato, sans-serif;
+  font-weight: bold;
+  font-size: 2.1em;
+  margin-bottom: 0;
+}
+
+.teach {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+  font-family: lato, sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-top: 5%;
+  margin-top: 0;
+}
+
+.mobilepartners {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4%;
+  padding-right: 4%;
+  background-color: #414246;
+  font-weight: 100;
+}
+
+.mobtitle {
+  flex: 1;
+  color: #fff;
+  font-family: lato, sans-serif;
+  font-size: 1.3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mozi {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #aeaeae;
+  font-size: 1.7em;
+  margin-top: 1%;
+}
+
+.partdivblock {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  margin-bottom: 7%;
+  width: 100%;
+}
+
+.partner-abullist {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.block {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.google1 {
+  color: #676767;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5em;
+  margin-top: 0.2em;
+  margin-left: 6%;
+}
+
+.navx {
+  color: #8e8e8e;
+  font-size: 1.4em;
+  font-family: COCOGOOSE, sans-serif;
+  padding-top: 0.1em;
+  margin-left: 7%;
+}
+
+.daum {
+  color: #6d6c6e;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.3em;
+  padding-top: 0.8em;
+}
+
+.ico {
+  display: flex;
+  padding-top: 0.9em;
+  margin-left: 9%;
+}
+
+.airv {
+  color: #6d6c6e;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.3em;
+  margin-left: 0;
+  margin-top: 0.5em;
+  font-weight: 800;
+}
+
+.fa-airbnb {
+  color: #5f5f62;
+}
+
+.footerclass {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 7%;
+  background-color: #fff;
+  padding-bottom: 5%;
+}
+
+.classfootdiv1 {
+  flex: 1;
+  display: flex;
+  width: 40%;
+  margin-right: 4%;
+}
+
+.logolin {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.lineone {
+  flex: 1;
+  max-width: 60%;
+  color: #767577;
+  font-family: lato, sans-serif;
+  font-size: 1em;
+  margin-top: 3.5%;
+}
+
+.texfo {
+  color: #232021;
+  font-family: lato, sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  line-height: 24px;
+  margin-top: 5%;
+  margin-left: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .headerMobile {
+    display: none;
+  }
+
+  @font-face {
+    font-family: "COCOGOOSE";
+    src: url(fonts/COCOGOOSE/Cocogoose_trial.otf);
+  }
+
+  .absection2 {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+  }
+
+  .video {
+    display: none;
+  }
+
+  .mobilepartners {
+    display: none;
+  }
+
+  .footerclass {
+    display: none;
+  }
+
+  .section1Desk {
+    background-color: #f7f7f7;
+    padding-left: 12%;
+    padding-right: 10%;
+    padding-top: 7%;
+  }
+
+  .titleDe {
+    flex: 1;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #c14241;
+    max-width: 100%;
+    background: -webkit-linear-gradient(#cf1313, #fc0202);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 7%;
+    font-size: 1.9em;
+    margin-bottom: 0;
+    font-family: COCOGOOSE, sans-serif;
+    background-color: #f7f7f7;
+  }
+
+  .title-textDesk {
+    background-color: #fff;
+    border-color: #f0f0f0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    max-width: 100%;
+  }
+
+  .messageDesk {
+    flex: 1;
+    font-family: latoreg, sans-serif;
+    font-size: 0.8em;
+    color: #7d7d7d;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 700;
+    margin-top: 3%;
+  }
+
+  .aboutlinkDesk {
+    flex: 1;
+    text-decoration: underline;
+    color: #535353;
+    font-size: 0.8em;
+    margin-bottom: 10%;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 600;
+    font-family: latoreg, sans-serif;
+  }
+
+  .abdesk {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 8%;
+  }
+
+  .spa {
+    margin-left: 3px;
+    padding-top: 1px;
+  }
+
+  .absection2Desk {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .speak-textDesk {
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: lato, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #363636;
+  }
+
+  .ab-text1Desk {
+    flex: 1;
+    padding-left: 6%;
+    padding-right: 6%;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: latoreg, sans-serif;
+    text-align: center;
+    color: #999;
+    font-weight: 600;
+  }
+
+  .ablogdivDesk {
+    flex: 1;
+    width: 45%;
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: 3px solid #999;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    align-self: center;
+  }
+
+  .aboutexDesk {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    margin-top: 3%;
+    font-size: 1.6em;
+    line-height: 23px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+  .imgloDesk {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .videoDesk {
+    display: flex;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+    border-top: 5px solid #999;
+    flex-direction: column;
+    margin-bottom: 1%;
+  }
+
+  .vid-textDesk {
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: lato, sans-serif;
+    color: #393939;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .vid-textsecDesk {
+    flex: 1;
+    text-align: center;
+    font-family: latoreg, sans-serif;
+    color: #7f7f7f;
+    font-weight: 800;
+  }
+
+  .viddiv {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .videoclas1Desk {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-image: url(pictures/vid.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 6%;
+    padding-bottom: 15%;
+    max-width: 400px;
+    height: 100px;
+    margin-right: 5%;
+  }
+
+  .videoclas2Desk {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-image: url(pictures/dark.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 6%;
+    padding-bottom: 15%;
+    max-width: 400px;
+    height: 100px;
+  }
+
+  .teachdatDesk {
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    font-size: 2.1em;
+    margin-bottom: 0;
+  }
+
+  .teachDesk {
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    font-family: lato, sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-top: 5%;
+    margin-top: 0;
+  }
+
+  .footer {
+    margin-top: 0;
+    background-color: #2e2e2e;
+  }
+
+  .copy {
+    color: #fff;
+  }
+
+  .texfoo {
+    color: #fff;
+  }
+}
